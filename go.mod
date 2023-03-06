@@ -3,7 +3,6 @@ module github.com/replicatedhq/troubleshoot
 go 1.12
 
 require (
-	cloud.google.com/go v0.57.0 // indirect
 	github.com/StackExchange/wmi v0.0.0-20210224194228-fe8f1750fd46 // indirect
 	github.com/ahmetalpbalkan/go-cursor v0.0.0-20131010032410-8136607ea412
 	github.com/blang/semver v3.5.1+incompatible
@@ -21,7 +20,7 @@ require (
 	github.com/gobwas/glob v0.2.3
 	github.com/godbus/dbus v4.1.0+incompatible
 	github.com/google/gofuzz v1.1.0
-	github.com/hashicorp/go-getter v1.3.1-0.20190627223108-da0323b9545e
+	github.com/hashicorp/go-getter v1.7.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/kr/text v0.2.0 // indirect
 	github.com/lib/pq v1.3.0
@@ -39,9 +38,7 @@ require (
 	github.com/spf13/viper v1.7.0
 	github.com/stretchr/testify v1.7.0
 	github.com/tj/go-spin v1.1.0
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210124154548-22da62e12c0c // indirect
-	golang.org/x/tools v0.0.0-20200916195026-c9a70fc28ce3 // indirect
+	golang.org/x/sync v0.0.0-20220929204114-8fcdb60fdcc0
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 	gopkg.in/yaml.v2 v2.3.0
 	k8s.io/api v0.20.2
